@@ -6,11 +6,11 @@ Bài toán nhận diện biển số xe sử dụng mạng mobilenet-ssd300
 
 Download data : https://drive.google.com/file/d/1GeSR1g7fwfjpNDlQ5RN0RAX5Y3qfYCj2/view?usp=sharing
 
-Data train model tách biển số  nằm trong folder open_images với nhãn dạng xml trong folder annotation
+Data train model tách biển số  : folder open_images. Với nhãn dạng xml : folder annotation
 
-Data train model tách kí tự nằm trong folder open_images2 với nhãn dạng xml trong folder annotation_pl
+Data train model tách kí tự : folder open_images2. Với nhãn dạng xml :folder annotation_pl
 
-Data train model nhận diện kí tự nằm trong folder data-kt
+Data train model nhận diện kí tự : folder data-kt
 
 ### Sử dụng: 
 
