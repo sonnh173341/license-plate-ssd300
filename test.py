@@ -145,6 +145,7 @@ def main():
             cv2.putText(orig_image, label1, (bo_x[0], bo_x[1] - 30), cv2.FONT_HERSHEY_PLAIN, 1.4, (222, 115, 18), 2)  # line type
             cv2.putText(orig_image, label2, (bo_x[0] - 10, bo_x[1] - 15), cv2.FONT_HERSHEY_PLAIN, 1.4, (222, 115, 18), 2)  # line type
             cv2.imshow('img_success', orig_image)
+            cv2.imwrite('readme_ssd_example.jpg', orig_image);
             cv2.waitKey()
 
             # bg = np.zeros((100, 250, 3), np.uint8)
