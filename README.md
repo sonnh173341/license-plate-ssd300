@@ -22,6 +22,8 @@ Data train model nhận diện kí tự : data/data-kt
 ### Model tách kí tự : 
         python3 train_ssd.py --dataset_type open_images --datasets ~/data/open_images2 --net mb1-ssd --pretrained_ssd models/mobilenet-v1-ssd-mp-0_675.pth --scheduler cosine --lr 0.01 --t_max 100 --validation_epochs 5 --num_epochs 100 --base_net_lr 0.001  --batch_size 5
 ### Model nhận diện kí tự :
-        python3 train_kt.py
+        Chuẩn bị dữ liệu : python3 train_kt
+        
+        Huấn luyện : https://colab.research.google.com/drive/1cmzdL2kuAAoK0ZBL_Us2wzjwhe_To5ah?authuser=2python3 train_kt.py
 ### Thử nghiệm : 
         python3 test.py
