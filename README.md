@@ -26,4 +26,6 @@ Data train model nhận diện kí tự : data/data-kt
 
         Huấn luyện : model_kt.ipynb
 ### Thử nghiệm : 
+        pip3 install -r requirement.txt
+        
         python3 test.py
